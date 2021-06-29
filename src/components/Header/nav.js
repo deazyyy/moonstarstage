@@ -3,6 +3,7 @@ import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
 import { useOnClickOutside } from '../../hooks/useOnClickOutside';
 import FocusLock from 'react-focus-lock';
+import searchImg from '../../assets/img/search.svg';
 
 export const StyledBurger = styled.button`
     display: flex;
@@ -120,7 +121,7 @@ const Nav = ({search, onChangeSearch}) => {
                         />
                         <button className="btn btn-primary">
                         {' '}
-                        <i className="fas fa-search" style={{fontSize: '18px'}}></i>{' '}
+                        <img src={searchImg} className="searchImg" alt="Search" />{' '}
                         </button>
                     </form>
                 </StyledMenu>

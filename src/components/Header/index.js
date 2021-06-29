@@ -32,6 +32,7 @@ import {setWeb3, updateAccount} from '../../actions/web3';
 import logoImg from '../../assets/img/moonstartoken-logo.png';
 import logoImgMobile from '../../assets/img/moonstartoken-logo-mobile.png';
 import metamaskImg from '../../assets/img/metamask.png';
+import searchImg from '../../assets/img/search.svg';
 import Nav from './nav';
 
 const Header = () => {
@@ -206,7 +207,7 @@ const Header = () => {
                 />
                 <button type='submit' className="btn btn-primary">
                   {' '}
-                  <i className="fas fa-search" style={{fontSize: '18px'}}></i>{' '}
+                  <img src={searchImg} className="searchImg" alt="Search" />{' '}
                 </button>
               </form>
             </div>

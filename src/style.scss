@@ -2593,7 +2593,18 @@ progress {
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
 }
 
-
+.searchFrm{
+  &::placeholder{
+    color: #c7c7cb;
+    font-weight: 500;
+  }
+}
+.searchImg{
+  height:16px;
+  width: auto;
+  position: relative;
+  top: -2px;
+}
 @media(max-width:500px) {
   .categorylist{
     .btn{
