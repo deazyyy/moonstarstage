@@ -163,7 +163,7 @@ const Marketplace = () => {
           </div>
         </div>
       </section>
-      <section className="py-5" data-aos="fade-up" data-aos-delay="400">
+      <section className="py-5 marketplacenft" data-aos="fade-up" data-aos-delay="400">
         <div className="container">
           <div className="row">
             <div className="col-12">

@@ -29,7 +29,7 @@ const Categories = () => {
           </div>
         </div>
 
-        <div className="row text-center">
+        <div className="row text-center categorylist">
           <div className="col-lg-12 mt-4">
             <a
               className={`btn btn-outline-primary`}

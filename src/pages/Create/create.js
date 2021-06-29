@@ -353,9 +353,9 @@ const Create = () => {
                 </label>
               </div>
               <div className="tabs-g mt-4">
-                <nav className="nav nav-tabs border-0 row" role="tablist">
+                <nav className="nav nav-tabs border-0 row mx-0" role="tablist">
                   <button
-                    className="btn btn-fat col ms-3 active"
+                    className="btn btn-fat col active"
                     data-bs-toggle="tab"
                     data-bs-target="#tab__fixedprice"
                   >
@@ -369,7 +369,7 @@ const Create = () => {
                     </span>
                   </button>
                   <button
-                    className="btn btn-fat col ms-3"
+                    className="btn btn-fat col mx-3"
                     data-bs-toggle="tab"
                     data-bs-target="#tab__timedauction"
                     disabled
@@ -385,7 +385,7 @@ const Create = () => {
                   </button>
 
                   <button
-                    className="btn btn-fat col ms-3"
+                    className="btn btn-fat col"
                     data-bs-toggle="tab"
                     data-bs-target="#tab_unlimitedauction"
                     disabled

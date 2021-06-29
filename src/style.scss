@@ -2593,6 +2593,25 @@ progress {
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
 }
 
+
+@media(max-width:500px) {
+  .categorylist{
+    .btn{
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+  }
+  .marketplacenft{
+    .row{
+      padding: 0 8px !important;
+    }
+    .col-6{
+      padding: 6px !important;
+      margin-bottom:0 8px 10px;
+    }
+  }
+}
+
 @media(prefers-reduced-motion:reduce) {
   .form-control::file-selector-button {
     -webkit-transition: none;
