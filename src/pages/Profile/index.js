@@ -3,11 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router';
 import {Spinner} from 'reactstrap';
 import { login } from '../../actions/user';
-<<<<<<< HEAD
 import spaceBack from '../../assets/img/spaceback.png';
-=======
-import spaceBack from '../../assets/img/spaceback.jpg';
->>>>>>> 811268a4f3535506abd90ef8dce2a980319143fe
 
 const NftLists = React.lazy(() => import('./nftLists'));
 const Account = React.lazy(() => import('./account'));
