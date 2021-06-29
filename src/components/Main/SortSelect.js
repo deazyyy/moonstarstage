@@ -41,11 +41,7 @@ const SortSelect = ({className, handleSort, options, defaultValue, width}) => {
             return { ...provided, 
                 opacity, 
                 transition,
-<<<<<<< HEAD
                 color: '#7f81a2'
-=======
-                color: 'white'
->>>>>>> 811268a4f3535506abd90ef8dce2a980319143fe
             };
         }
       }
@@ -59,11 +55,7 @@ const SortSelect = ({className, handleSort, options, defaultValue, width}) => {
             name="state"
             styles={customStyles}
             width={width || '200px'}
-<<<<<<< HEAD
             menuColor='#7f81a2'
-=======
-            menuColor='white'
->>>>>>> 811268a4f3535506abd90ef8dce2a980319143fe
             options={options} 
             onChange={handleSort}/>
     )
