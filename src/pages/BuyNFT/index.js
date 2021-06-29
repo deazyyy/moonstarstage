@@ -17,11 +17,7 @@ import HotLists from './hotlists';
 import {FactoryAddress, AuctionAddress, DefaultAvatar} from '../../constants';
 import {nFormatter} from '../../utils/helper';
 import restApi from '../../utils/restApi';
-<<<<<<< HEAD
 import spaceBack from '../../assets/img/spaceback.png';
-=======
-import spaceBack from '../../assets/img/spaceback.jpg';
->>>>>>> 811268a4f3535506abd90ef8dce2a980319143fe
 import Web3 from 'web3';
 import LikeIcon from '../../components/Main/LikeIcon';
 import moonstartoken from '../../assets/img/icons/moonstar-icon.svg';
